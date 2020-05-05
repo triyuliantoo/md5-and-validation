@@ -29,6 +29,7 @@ namespace MD5andValidation
                     Console.WriteLine("The hashes are not same.");
                 }
             }
+            Console.ReadLine();
         }
         static string GetMd5Hash(MD5 md5Hash, string input)
         {
